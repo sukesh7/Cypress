@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://localhost:9000/auth/realms/master/protocol/openid-connect/auth?client_id=internal-admin&redirect_uri=https%3A%2F%2Flocalhost%3A7000%2F&state=5583bfa5-3a1f-46dc-9a39-3ee5ebdfc90d&response_mode=fragment&response_type=code&scope=openid",
+  "env": {
+    "username": "admin",
+    "password": "pass"
+  },
+  "integrationFolder":"src/specs",
+  "chromeWebSecurity": false,
+  "screenshotsFolder": "reports/screenshots",
+  "videosFolder": "reports/videos",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir":"reports",
+    "reportFilename":"results",
+    "quiet":"true",
+    "json":"false"
+  },
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 4000,
+  "pageLoadTimeout": 60000,
+  "supportFile": "src/util/hooks.js"
+}
